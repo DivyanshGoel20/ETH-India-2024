@@ -3,17 +3,29 @@ import { Link } from 'react-router-dom';
 import { Flame, DollarSign, Repeat } from 'lucide-react';
 import { AnimatedBackground } from '../components/AnimatedBackground';
 import { Feature } from '../components/Feature';
+import { WalletDefault } from '@coinbase/onchainkit/wallet';
+import {
+  Address,
+  Avatar,
+  Name,
+  Identity,
+  IdentityCard,
+  EthBalance,
+} from '@coinbase/onchainkit/identity';
+import { base } from 'viem/chains';
 
 export function LandingPage() {
   return (
+
     <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-violet-800 text-white">
       <AnimatedBackground />
+      <WalletDefault />
       <div className="z-10 text-center p-6 max-w-4xl mx-auto">
         <h1 className="text-6xl sm:text-7xl md:text-8xl font-extrabold mb-8 animate-pulse">
           Roast<span className="text-red-500">Bot</span>
         </h1>
         <p className="text-xl sm:text-2xl mb-12 leading-relaxed">
-          Enter the ultimate roasting arena! Pay to roast others, but beware - 
+          Enter the ultimate roasting arena! Pay to roast others, but beware -
           they can pay more to shift the heat. How long can you take the burn?
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
@@ -29,6 +41,11 @@ export function LandingPage() {
       </div>
       <footer className="absolute bottom-4 text-center w-full text-sm opacity-60">
         © 2024 RoastBot. All rights reserved. Use at your own risk of ego damage.
+        <IdentityCard
+          address="0xFF65DC5C653c2A6C7C11986b06E5f45D5Ba88076"
+          chain={base}
+          schemaId="0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9"
+        />
       </footer>
     </div>
   );
