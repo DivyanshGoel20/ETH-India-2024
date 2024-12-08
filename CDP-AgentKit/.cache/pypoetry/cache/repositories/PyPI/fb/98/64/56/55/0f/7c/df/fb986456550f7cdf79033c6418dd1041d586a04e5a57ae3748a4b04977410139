@@ -1,0 +1,1 @@
+9999999999{"name": "ed25519-blake2b", "version": "1.4.1", "summary": "Ed25519 public-key signatures (BLAKE2b fork)", "requires_dist": null, "requires_python": null, "files": [{"file": "ed25519-blake2b-1.4.1.tar.gz", "hash": "sha256:731e9f93cd1ac1a64649575f3519a99ffe0bb1e4cf7bf5f5f0be513a39df7363"}], "yanked": false, "_cache_version": "2.0.0"}

@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="absolute bottom-4 text-center w-full text-sm opacity-60">
       <div className="mb-4">
-        © 2024 RoastBot. All rights reserved. Use at your own risk of ego damage.
+        © 2024 BlameFlame. All rights reserved. Use at your own risk of ego damage.
       </div>
       <div className="flex justify-center">
         <IdentityCard

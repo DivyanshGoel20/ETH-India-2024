@@ -1,0 +1,1 @@
+9999999999{"name": "cdp", "version": "0.0.2", "summary": "Change Directory Plus", "requires_dist": ["scandir"], "requires_python": null, "files": [{"file": "cdp-0.0.2.tar.gz", "hash": "sha256:92fa51d74d12695ab744d9c5ebe00057110df5dc47d6405440933fd7a2f19526"}], "yanked": false, "_cache_version": "2.0.0"}

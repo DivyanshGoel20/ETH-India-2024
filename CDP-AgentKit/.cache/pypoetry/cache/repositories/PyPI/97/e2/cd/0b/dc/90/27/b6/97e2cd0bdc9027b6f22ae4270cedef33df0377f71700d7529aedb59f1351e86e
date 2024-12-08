@@ -1,0 +1,1 @@
+9999999999{"name": "crcmod", "version": "1.7", "summary": "CRC Generator", "requires_dist": null, "requires_python": null, "files": [{"file": "crcmod-1.7.tar.gz", "hash": "sha256:dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e"}], "yanked": false, "_cache_version": "2.0.0"}

@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Flame size={32} className="text-red-500" />
-            <span className="text-2xl font-bold">RoastBot</span>
+            <span className="text-2xl font-bold">BlameFlame</span>
           </Link>
           <div className="flex items-center space-x-6">
             <nav className="space-x-6">

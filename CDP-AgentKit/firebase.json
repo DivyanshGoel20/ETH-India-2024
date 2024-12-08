@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reclaim-b8378",
+  "private_key_id": "24cd48a4e9ca93012c964e7e354f7236d7b1760e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCrAsaDSYwG41yP\n5T0IFmKJNCrMDym9WYmIpLNBCfUgfgfSulLRnnmqwFQI+rhVO54wa/eq6EdCu7lD\nWDapMsaAmi1fTHphbbb5alx89eGep/VW/oZbilb0+DbfyaaOGfnRb1AsrfXoC0U9\n7+boTdx/o6KXZs6EAvZ1wYMQgGa8KoWLmFPWPMioYosY2ZSrvzvsH3lof/L+lTP0\ne0wp0gbJZrLW0G+nMnWX1FoYsxUXzDzyEZV75aojNVn/0P3qYkSdDPDdYMiFo3h0\n33KIpBGIZdpRUJ7AyUxf291xIkwXgoBUjeVadWv3lm7K8oU/nECbEdQcx1zMir7/\ntBkotInHAgMBAAECggEAS1eGMSpSfGhoC+eBu5HtKKiooE2f5JHRk7eIWAO0kPOl\nq7Q2L68jyFRC0c/wLXD+MTQoIg6C8sY1CZQQRPwfU2JZ0g4mLs2BGyK+i7lihR1X\nbFPnyuXIiNXgizjS3fFYzGo/xud/mxN4FqEeuMMw/bUQuaZsHuIVRm0Sus7vND/J\nLB8XWK4YOAum3ymfnd5stvbG2v7xeYxgN4AqrfO9fJb3N1cLo4T3xaFufIyYQX8d\ngwocdDDyOErqowArThji6I9zV1GIhl/SQcshmdGiY6kt3l3YEQyNl+VDrIDTCLou\nprKHxtvXg2pQvoOGANeUYhwm38zBgEbV4urZS15BsQKBgQDYgPaBI0h91tTRklxK\nlgmGfyscI0iwAHErJhJNb1WUy1/LQXEQce8eAZ3e/V1fgELFUAHCXlrDx9e+0QiL\nKdWNOza6cCpnqHsipHp/NcTw6kVQvG62j1tkD5xCuEk+2sbq1cpqrHFhJMg7Jsfs\nFqM7LCnssHlyTPmXPipgHPbzsQKBgQDKNTpNBR90QPj+cKSatvOGBet3+R96a5Ux\nMFNi6ESMaSv2f44Gv7Dop9m2T7hrTh785WHa+iLUFNeaJWidU1i/J2eo+fBXOiKN\noW0ijgMMFvS2E5V4t/FYF0QpOQFYFxbQfyycc8tf7IqTzCIVA5ilu8oS13Fvntk/\n9o08hrKK9wKBgHxQuLp4BwTy2WqozsOpGTkYRim2/OLKrjCngLTj69EvYgb0wbY+\npZ2mMf87nmTa4fwoL4pq4VUvp+sSXgSCdfPNf2RYSZERxfqjVQ88UaQ/8KMmP7Al\n6sUuzXvmE3C68KMhNURBVi0AkNSeNQeUDBBLEJuuzV1bY6l7cZuUphxRAoGBAIpg\njKpClDjpcbwl9+9MvjB8gpySpqEPWITV7mqkSqzQGF7TAa3KptVAcLPbsHf2eSxW\nCXZicU0ziiwZ55Kqg/QkkkLH8FqxFQ5ZZycbiihO2V503nhDYO0I1wNi2HGhM2Kx\ndSUH9SiK5naoXraExIS+k1X7i8x4J3InVpYSE8MXAoGBAKMAU2HRjzQTM3fe4y1v\nGEoFq45RW1Xojul2E9l+aQF5GTTU0u/l7tbA8sgkIimAl+a7hXKI111tspsqpcSh\nUaloZ/UEJM1RR/MUh+335Rea/QKHI40XofM9fK7XVOEM1erWrbDxRA8WTrRTUJBM\n6474wwhoq1EhrFhEJIpyo51I\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-kltzo@reclaim-b8378.iam.gserviceaccount.com",
+  "client_id": "113731824662247217093",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-kltzo%40reclaim-b8378.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

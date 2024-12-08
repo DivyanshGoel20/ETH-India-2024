@@ -4,7 +4,6 @@ import { ActiveRoast } from '../components/ActiveRoast';
 import { MOCK_ROASTS } from '../data/mockRoasts';
 import { SwapDefault } from '@coinbase/onchainkit/swap';
 import type { Token } from '@coinbase/onchainkit/token';
-import { Footer } from '../components/Footer';
 
 export function Dashboard() {
   const activeRoast = MOCK_ROASTS[0];

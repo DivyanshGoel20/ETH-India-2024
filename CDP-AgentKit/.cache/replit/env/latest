@@ -1,0 +1,142 @@
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu=1
+declare -gx NIX_LDFLAGS='-rpath /nix/store/qhxr7d18qrr0ag05i21vyd9mfcml281w-nix-shell/lib  -L/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36/lib -L/nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers/lib -L/nix/store/jz3vvf4nsyirb25rh9dbhksm4gq6wybb-libglvnd-1.7.0/lib -L/nix/store/5nk2ga7i2f030am4qpcdsd8qlk6i3z83-attr-2.5.2/lib -L/nix/store/yvhyhcfhc98wm86pw4ygk5jdr804iwrw-libcap-2.69-lib/lib -L/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/lib -L/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36/lib -L/nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers/lib -L/nix/store/jz3vvf4nsyirb25rh9dbhksm4gq6wybb-libglvnd-1.7.0/lib -L/nix/store/5nk2ga7i2f030am4qpcdsd8qlk6i3z83-attr-2.5.2/lib -L/nix/store/yvhyhcfhc98wm86pw4ygk5jdr804iwrw-libcap-2.69-lib/lib -L/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/lib'
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers/lib/dri
+declare -gx CONFIG_SHELL=/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash
+declare -gx AS=as
+declare -gx depsHostHost=''
+declare -gx REPLIT_BASHRC=/nix/store/1dixvnrbgnmg49kwfqfd5by5kvagif3z-replit-bashrc/bashrc
+declare -gx USER=runner
+declare -gx __ETC_PROFILE_SOURCED=1
+declare -gx AR=ar
+declare -gx PYTHONUSERBASE=/home/runner/CDP-AgentKit/.pythonlibs
+declare -gx REPLIT_DOMAINS=386503fe-8c85-4a06-9af6-2d9fe54b2424-00-2dm6oi3yd5quv.pike.replit.dev
+declare -gx REPLIT_RTLD_LOADER=1
+declare -gx XDG_DATA_DIRS=/nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0/share
+declare -gx buildPhase='{ echo "------------------------------------------------------------";
+  echo " WARNING: the existence of this path is not guaranteed.";
+  echo " It is an internal implementation detail for pkgs.mkShell.";
+  echo "------------------------------------------------------------";
+  echo;
+  # Record all build inputs as runtime dependencies
+  export;
+} >> "$out"
+'
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx NM=nm
+declare -gx patches=''
+declare -gx POETRY_PIP_USE_PIP_CACHE=1
+declare -gx HOME=/home/runner
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx phases=buildPhase
+declare -gx OBJDUMP=objdump
+declare -gx CXX=g++
+declare -gx POETRY_CONFIG_DIR=/nix/store/gggxckh6k9x2v4ryd52hx8q2xjm28d51-poetry-config
+declare -gx REPL_SLUG=CDP-AgentKit
+declare -gx cmakeFlags=''
+declare -gx SIZE=size
+declare -gx LD=ld
+declare -gx doCheck=''
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MzM3MzA2MzAsImlhdCI6MTczMzYxOTAzMCwiZGF0YWJhc2VfaWQiOiIzODY1MDNmZS04Yzg1LTRhMDYtOWFmNi0yZDlmZTU0YjI0MjQifQ.VU4bqdNCJIXIwsHynlL9_MSw3jrdPjb5frVy7w173j3ZiEmxaARHMVsBR8kAaGoYWYNGp9N_rLll27L23ywBcA
+declare -gx REPLIT_DEV_DOMAIN=386503fe-8c85-4a06-9af6-2d9fe54b2424-00-2dm6oi3yd5quv.pike.replit.dev
+declare -gx outputs=out
+declare -gx NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow'
+declare -gx strictDeps=''
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx LANG=en_US.UTF-8
+declare -gx GIT_EDITOR=replit-git-editor
+declare -gx stdenv=/nix/store/xfhkjnpqjwlf6hlk1ysmq3aaq80f3bjj-stdenv-linux
+declare -gx propagatedNativeBuildInputs=''
+declare -gx depsBuildTargetPropagated=''
+declare -gx PYTHONPATH=/nix/store/v118v4fxlkr24l0cq9mmjdaqivkyzbv8-sitecustomize/lib/python/site-packages:/nix/store/518jd9fxzy2rhb2ja2g5zmshvyr7yfkg-python3.12-pip-24.0/lib/python3.12/site-packages
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx STRINGS=strings
+declare -gx CC=gcc
+declare -gx _=/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5/bin/env
+declare -gx REPL_ID=386503fe-8c85-4a06-9af6-2d9fe54b2424
+declare -gx SOURCE_DATE_EPOCH=315532800
+declare -gx NIX_BUILD_CORES=4
+declare -gx doInstallCheck=''
+declare -gx READELF=readelf
+declare -gx UV_PYTHON_PREFERENCE=only-system
+declare -gx POETRY_PIP_FROM_PATH=1
+declare -gx POETRY_VIRTUALENVS_CREATE=0
+declare -gx REPLIT_PYTHONPATH=/home/runner/CDP-AgentKit/.pythonlibs/lib/python3.12/site-packages:/nix/store/llgbdr264r5ih0d19ii7k5c1ankxh9sv-python3.12-setuptools-72.1.0/lib/python3.12/site-packages
+declare -gx POETRY_USE_USER_SITE=1
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx __structuredAttrs=''
+declare -gx nativeBuildInputs=''
+declare -gx REPLIT_PYTHON_LD_LIBRARY_PATH=/nix/store/r0lvxcdpachvilzmy1w7pnwxikbvm7az-cpplibs/lib:/nix/store/wfml6h84mna7sw9f6v7z0l60f4faxk8w-zlib-1.3.1/lib:/nix/store/d1jna110cihfr8024bgb504r5pvamrnv-glib-2.80.4/lib:/nix/store/zaybqfc1xr9qp05r37nw0rqmsql91rx5-libX11-1.8.10/lib:/nix/store/0rrkf6rysbrf18iwcwbklv61yp51krsj-libXext-1.3.6/lib:/nix/store/lx55bh0a0bpqbjmnaab6hbv5wwi87xlg-libXinerama-1.1.5/lib:/nix/store/j7pclr7nq518ld7fhl1g79w4amdb4p2l-libXcursor-1.2.2/lib:/nix/store/b8yh7a8il19r9si8ksdcg9y862mjxsxk-libXrandr-1.5.4/lib:/nix/store/qyizf1klpncvayhayrr99caqfga0f7d0-libXi-1.8.1/lib:/nix/store/l2hfb8lx65v4caq19w804phkiyqglrv9-libXxf86vm-1.1.5/lib
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-24_05:/home/runner/.nix-defexpr/channels
+declare -gx XDG_DATA_HOME=/home/runner/CDP-AgentKit/.local/share
+declare -gx depsBuildBuildPropagated=''
+declare -gx out=/nix/store/qhxr7d18qrr0ag05i21vyd9mfcml281w-nix-shell
+declare -gx propagatedBuildInputs=''
+declare -gx NIX_BUILD_TOP=/tmp
+declare -gx NIX_STORE=/nix/store
+declare -gx NIX_ENFORCE_NO_NATIVE=1
+declare -gx POETRY_PIP_NO_ISOLATE=1
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx DOCKER_CONFIG=/home/runner/CDP-AgentKit/.config/docker
+declare -gx RANLIB=ranlib
+declare -gx HOSTNAME=2d5ab57eed79
+declare -gx REPL_OWNER_ID=37961024
+declare -gx HOST_PATH=/nix/store/ha8rh8jg19r8418baa8ps9b9kvd6szcf-attr-2.5.2-bin/bin:/nix/store/cnnmb3axmv43lj22gny3m4hj06i1nc7c-libcap-2.69/bin:/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/bin:/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5/bin:/nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0/bin:/nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10/bin:/nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9/bin:/nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11/bin:/nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2/bin:/nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35/bin:/nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13/bin:/nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin/bin:/nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1/bin:/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin:/nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6/bin:/nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin/bin:/nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45/bin
+declare -gx REPLIT_LD_AUDIT=/nix/store/n5x1kgbz8zjh63ymsijbislyi1n1hir6-replit_rtld_loader-1/rtld_loader.so
+declare -gx REPL_OWNER=dayitvagoel
+declare -gx REPL_IDENTITY_KEY=k2.secret.oayOTLWHEOGlHRp7xzyRljsx2wpj_V7IZtqqqx1oZDsAIrdXU48DHDtNjQPQAQKojsmVBEZhZsQ-guvC-DHm2A
+declare -gx buildInputs='/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36 /nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers /nix/store/smacbfb82wp7ncz2rwac68jd50qxr70a-libglvnd-1.7.0-dev /nix/store/a83znbrflv30lvhww0d2rljbyd5mw0c0-pulseaudio-17.0-dev'
+declare -gx shell=/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash
+declare -gx configureFlags=''
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx REPLIT_PID1_VERSION=0.0.0-4b7dad2
+declare -gx REPL_LANGUAGE=nix
+declare -gx depsTargetTargetPropagated=''
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/72dfj6fpcs0xzy908kb6dkdmh7n4gjia-rippkgs-indices
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx mesonFlags=''
+declare -gx depsTargetTarget=''
+declare -gx depsBuildBuild=''
+declare -gx POETRY_CACHE_DIR=/home/runner/CDP-AgentKit/.cache/pypoetry
+declare -gx STRIP=strip
+declare -gx DISPLAY=:0
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx XDG_CONFIG_HOME=/home/runner/CDP-AgentKit/.config
+declare -gx COLORTERM=truecolor
+declare -gx system=x86_64-linux
+declare -gx NIX_CC=/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0
+declare -gx NIX_CFLAGS_COMPILE=' -frandom-seed=qhxr7d18qr -isystem /nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36/include -isystem /nix/store/smacbfb82wp7ncz2rwac68jd50qxr70a-libglvnd-1.7.0-dev/include -isystem /nix/store/a83znbrflv30lvhww0d2rljbyd5mw0c0-pulseaudio-17.0-dev/include -isystem /nix/store/xslrgzkvciny0m0cqbgq4bnvydvpdkgx-libcap-2.69-dev/include -isystem /nix/store/nn78wg4rgns62w5sfzyxashxizd0lfva-attr-2.5.2-dev/include -isystem /nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36/include -isystem /nix/store/smacbfb82wp7ncz2rwac68jd50qxr70a-libglvnd-1.7.0-dev/include -isystem /nix/store/a83znbrflv30lvhww0d2rljbyd5mw0c0-pulseaudio-17.0-dev/include -isystem /nix/store/xslrgzkvciny0m0cqbgq4bnvydvpdkgx-libcap-2.69-dev/include -isystem /nix/store/nn78wg4rgns62w5sfzyxashxizd0lfva-attr-2.5.2-dev/include'
+declare -gx REPLIT_CLI=/nix/store/7w69qm7rpvxldiwzy97vz177cg5i10zl-pid1-0.0.1/bin/replit
+declare -gx REPLIT_NIX_CHANNEL=stable-24_05
+declare -gx REPL_IDENTITY=v2.public.Q2lRek9EWTFNRE5tWlMwNFl6ZzFMVFJoTURZdE9XRm1OaTB5WkRsbVpUVTBZakkwTWpRU0MyUmhlV2wwZG1GbmIyVnNHZ3hEUkZBdFFXZGxiblJMYVhRaUpETTROalV3TTJabExUaGpPRFV0TkdFd05pMDVZV1kyTFRKa09XWmxOVFJpTWpReU5EakErb3dTV2d3S0JIQnBhMlVTQkhCaGFXUT267_Qi46UMqr2_zINqIB_m6LygCWUIsUM8fpdRUYk84MFhyeA6duiqi_a82dSoC4BryxUXrxML-hsn7RwvzLEO.R0FFaUJtTnZibTFoYmhLR0NIWXlMbkIxWW14cFl5NVJNbVF6VTFobk5XTnNVakZhTVd4U1RqTkdWV0Z1Y0ROVFZrNUZVVmRzV0dWcWJERk9hMHB2VVRJeGVGUXhRbEZSVjJoMlVUQmtRbFpYUmt0YU1qbHlWRmh3Ymsxck5WVlJXSEJoWWxaV01GUXdaRTVPUlRWVVRVUkNXbFpGUlhsVVJsSnpZVVp3Y1ZkWVVrNWlWa1V4VjIweFZrMVZOVWhUV0d4UFVrVnJkMUl5WTNkVk1FMTVWVzFvYkZZeWQzZGFSekZIWW0xSmVWWnVUa2hhTVZVd1pERkNlRlJWVm05aU1HUktXakZLTTFsV1pEQmlSV1J1VjFoR1ExTkZTbTlaVm1SU1lWVTFXR016YkUxaWEwbDRWMWN4TkdOR2JEVk9WVXBTVFVoT05sWnRjRWRWUmxaR1VtcFNhMlZ0VWxaV01WSkRVbFV4UmxKcldsSk5NRnBMVkdwQ2QyTXhWbGRUYTJoWVZtMVNjRlZzV2tOa2JGSkpVMnBPYTJKWFVUQlViR2hUWW1odk5WcFZZbmhhVjBzNU1rUklSSHB1V2pabFRXUk5OazlJUzJGRWVGRk9TbTV6ZGxCWlpWVTFSVVE1Wld0WmVFZDVaalpRWTAxUFdGa3pUVWMxTjIxSVNHVXlaR2xVWmtSbmVtdEdZME5wYWkxWk1XZDNMbEl3UmtaaFZVcDBWRzVhYVdKVVJtOVpiV2hOV1d0R2RWZFliRTFpYTBsNFYxY3hOR05HYkRWT1ZrcE9ZbFpKTWxaVVJtdE5SMVowVTJ4YVZHSnVRbGRXYlRFMFZURlNjbFZ0Ums1V2JrSlhWVEowVDFaR1dsbGhSVlpXWld0S2NsVnFRVEZUVmtaeVUyeGFUbEpzY0ZOV2JYQlBXVmRTVjJJemFGTmlWMmhUVm1wS2IyUldWbGhrUjNScFlrVTFXRmxyVms5V2JVcFZZa1ZXVm1GclNraGFSM2h6Vm14S2RWSnNTbGRXV0VKS1ZqSndRMk14WkhOU2JHaG9VMFp3VTFSVlpGTlJNVnBIV2tWa1VtSlZXa2xYYTFWNFZUQXhkRlZyZEZkTlZscFVWVlJLU21ReFVuSmhSa3BYWVRGd2RsWldXbXRpTWtwelZHNUthVk5GV2xoWmJYUjNWREZzVjFWc1pFNU5XRUpJVjJ0V01HRnJNWEpYYkd4WFVtMW9XRlpFUm1Ga1IxWkpZMFprVjJKV1NrbFdSbEpMVkRKTmVWTnFXbFpoZW14WVZGZDRTMkl4V1hsTlZGSlVUV3RhUjFSV1ZtdFdSMHBHVjJ4YVdsWjZSVEJYVmxwelRteEdWVkp0Y0dsU1dFSTJWa1JHVjFsWFJYbFRiR3hXVmtWYVYxbHJXbUZqYkhCSVpVVmFiRkp1UWtaV01qRjNZVWRGZUdOSE9WZGhhMXBVVlhwR1RtVkdXbk5UYkVaWFVrVktNMVl5ZEdGWGJVNTBZMFV4VUZkRk5IcGFSVlphVGxad1JWSllVbWxpVkZaUlZEQmtZVlZ0U2xoaFJFcFVVbFp3ZUZaclZuSmtSMUpGWVVWd2FXSldjRkZYUkVsNFZsVXhkRmw2VW1wWFNFSkdWV3RrVms1R1drVmlSbEpvVFZaS05sZHRlRzlpVjFaeVlucENXRlpWTVRaWGJYTjNaV3hrVms1WVNsUldSMUpaVjFkcmQwNVdTbkpWYlRsUFlWUkdURlJxU1RWU1JYaHpVMWhrVTJFeGNHOVdiRlozVFVaYVNFNVhSbWhXTUhCV1ZXMHdOVmR0U2xoVmFrcFdZV3R3VUZVeFdrOWtWbVIwVW14T1UyVnRaekE9
+declare -gx PROMPT_DIRTRIM=2
+declare -gx depsBuildTarget=''
+declare -gx preferLocalBuild=1
+declare -gx depsHostHostPropagated=''
+read -r _new_path <<< "/home/runner/CDP-AgentKit/.pythonlibs/bin:/nix/store/lgf9gw64hf3fccxxr6hsxah57q47jfhi-python-wrapped-0.1.0/bin:/nix/store/119f9rlcw5kky82xi0h07jsphdd4clg2-pip-wrapper/bin:/nix/store/8yvlybrlf9bkddszmaxbgr56gcp6lrml-poetry-wrapper/bin:/nix/store/k1nd057rf8mcf17d1zs4h35vhh03fraw-uv-0.4.4/bin:/nix/store/rdd4pnr4x9rqc9wgbibhngv217w2xvxl-bash-interactive-5.2p26/bin:/nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0/bin:/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin:/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/bin:/nix/store/c2i631h8i5vcs1sqifwxfsazhwrg6wr5-glibc-2.39-52-bin/bin:/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5/bin:/nix/store/kln7kinji3b7sz8r50h4gn9yy6k1js9a-binutils-wrapper-2.41/bin:/nix/store/bgcaxhhxswzvmxjbbgvvaximm5hwghz1-binutils-2.41/bin:/nix/store/ha8rh8jg19r8418baa8ps9b9kvd6szcf-attr-2.5.2-bin/bin:/nix/store/cnnmb3axmv43lj22gny3m4hj06i1nc7c-libcap-2.69/bin:/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/bin:/nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0/bin:/nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10/bin:/nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9/bin:/nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11/bin:/nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2/bin:/nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35/bin:/nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13/bin:/nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin/bin:/nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1/bin:/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin:/nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6/bin:/nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin/bin:/nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45/bin:/nix/store/c0a1fmzg58ri6aca4kz36wqspgbw07x4-pid1/bin:/nix/store/pz5x17ys3wx4l9k7jai9xpab0cm7vi48-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/home/runner/CDP-AgentKit/.pythonlibs/bin:/nix/store/lgf9gw64hf3fccxxr6hsxah57q47jfhi-python-wrapped-0.1.0/bin:/nix/store/119f9rlcw5kky82xi0h07jsphdd4clg2-pip-wrapper/bin:/nix/store/8yvlybrlf9bkddszmaxbgr56gcp6lrml-poetry-wrapper/bin:/nix/store/k1nd057rf8mcf17d1zs4h35vhh03fraw-uv-0.4.4/bin:/nix/store/rdd4pnr4x9rqc9wgbibhngv217w2xvxl-bash-interactive-5.2p26/bin:/nix/store/nbad47q0m0m9c5xid7zh05hiknwircbp-patchelf-0.15.0/bin:/nix/store/9bv7dcvmfcjnmg5mnqwqlq2wxfn8d7yi-gcc-wrapper-13.2.0/bin:/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/bin:/nix/store/c2i631h8i5vcs1sqifwxfsazhwrg6wr5-glibc-2.39-52-bin/bin:/nix/store/php4qidg2bxzmm79vpri025bqi0fa889-coreutils-9.5/bin:/nix/store/kln7kinji3b7sz8r50h4gn9yy6k1js9a-binutils-wrapper-2.41/bin:/nix/store/bgcaxhhxswzvmxjbbgvvaximm5hwghz1-binutils-2.41/bin:/nix/store/ha8rh8jg19r8418baa8ps9b9kvd6szcf-attr-2.5.2-bin/bin:/nix/store/cnnmb3axmv43lj22gny3m4hj06i1nc7c-libcap-2.69/bin:/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/bin:/nix/store/jjcsr5gs4qanf7ln5c6wgcq4sn75a978-findutils-4.9.0/bin:/nix/store/i34mknsjgrfyy71k2h79gda0bvagzc2j-diffutils-3.10/bin:/nix/store/5zjms21vpxlkbc0qyl5pmj2sidfmzmd7-gnused-4.9/bin:/nix/store/28gpmx3z6ss3znd7fhmrzmvk3x5lnfbk-gnugrep-3.11/bin:/nix/store/8vvkbgmnin1x2jkp7wcb2zg1p0vc4ks9-gawk-5.2.2/bin:/nix/store/rik7p68cq7yzlj5pmfpf4yv6jnrpvlgf-gnutar-1.35/bin:/nix/store/j5chw7v1x3vlmf3wmdpdb5gwh9hl0b80-gzip-1.13/bin:/nix/store/mxcq77rlan82dzpv3cgj0fh6qvv8ncil-bzip2-1.0.8-bin/bin:/nix/store/cdzpn0rdq810aknww3w9fy3wmw9ixr66-gnumake-4.4.1/bin:/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin:/nix/store/0lfxbmchigx9vs9qmrlbahcy6nxwfnj1-patch-2.7.6/bin:/nix/store/6i4xxaa812vsbli9jkq4mksdddrk27lw-xz-5.4.6-bin/bin:/nix/store/xx7x1dwybpssfhq8yikvzz38bh3yrq97-file-5.45/bin:/nix/store/c0a1fmzg58ri6aca4kz36wqspgbw07x4-pid1/bin:/nix/store/pz5x17ys3wx4l9k7jai9xpab0cm7vi48-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx XDG_CACHE_HOME=/home/runner/CDP-AgentKit/.cache
+declare -gx builder=/nix/store/306znyj77fv49kwnkpxmb0j2znqpa8bj-bash-5.2p26/bin/bash
+declare -gx POETRY_PIP_NO_PREFIX=1
+declare -gx UV_PROJECT_ENVIRONMENT=/home/runner/CDP-AgentKit/.pythonlibs
+declare -gx PIP_CONFIG_FILE=/nix/store/l04jm6azvnsm9hlximw0pnq1x51q1rba-pip.conf
+declare -gx REPLIT_CLUSTER=pike
+declare -gx OBJCOPY=objcopy
+declare -gx REPL_HOME=/home/runner/CDP-AgentKit
+declare -gx shellHook=''
+declare -gx NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu=1
+declare -gx POETRY_DOWNLOAD_WITH_CURL=1
+declare -gx UV_PYTHON_DOWNLOADS=never
+declare -gx NIX_BINTOOLS=/nix/store/kln7kinji3b7sz8r50h4gn9yy6k1js9a-binutils-wrapper-2.41
+declare -gx POETRY_INSTALLER_MODERN_INSTALLATION=1
+declare -gx REPLIT_LD_LIBRARY_PATH=/nix/store/5xynf9c9ml7d97q70kpq9rpqqmx13xl8-libxcrypt-4.4.36/lib:/nix/store/hggpnywm6l7cfh2ml1ynm50ap9x4f9rn-mesa-24.0.7-drivers/lib:/nix/store/jz3vvf4nsyirb25rh9dbhksm4gq6wybb-libglvnd-1.7.0/lib:/nix/store/pn9glkalcj7i5p549dpsl1c46pkb13xr-pulseaudio-17.0/lib
+declare -gx REPLIT_SUBCLUSTER=paid

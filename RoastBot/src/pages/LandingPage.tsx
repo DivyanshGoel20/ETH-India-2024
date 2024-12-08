@@ -14,7 +14,7 @@ export function LandingPage() {
         <AnimatedBackground />
         <div className="z-10 text-center p-6 max-w-4xl mx-auto">
           <h1 className="text-6xl sm:text-7xl md:text-8xl font-extrabold mb-8 animate-pulse">
-            Roast<span className="text-red-500">Bot</span>
+            Blame<span className="text-red-500">Flame</span>
           </h1>
           <p className="text-xl sm:text-2xl mb-12 leading-relaxed">
             Enter the ultimate roasting arena! Pay to roast others, but beware -
