@@ -17,10 +17,10 @@ export function ActiveRoast({ roast }: ActiveRoastProps) {
           </div>
         </div>
       </div>
-      
+
       <div className="mt-8 text-center">
         <h2 className="text-3xl font-bold mb-6">Active Roast</h2>
-        
+
         <div className="flex justify-center items-center space-x-4 mb-8">
           <div className="flex items-center">
             <DollarSign className="w-8 h-8 text-green-400 mr-2" />
@@ -43,7 +43,7 @@ export function ActiveRoast({ roast }: ActiveRoastProps) {
             <h3 className="mt-4 text-xl font-semibold">{roast.roastee.name}</h3>
             <p className="text-red-400">Getting Roasted</p>
           </div>
-          
+
           <div className="text-center">
             <div className="relative inline-block">
               <img
@@ -60,9 +60,13 @@ export function ActiveRoast({ roast }: ActiveRoastProps) {
           </div>
         </div>
 
-        <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+        <button
+          className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+          onClick={() => window.location.href = 'https://warpcast.com/roast-bot'}
+        >
           Watch Live Roast
         </button>
+
       </div>
     </div>
   );
